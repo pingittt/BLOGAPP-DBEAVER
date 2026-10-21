@@ -16,7 +16,7 @@ class ApiService {
   // - Emulator Android       -> http://10.0.2.2:3000
   // - iOS Simulator          -> http://127.0.0.1:3000
   // - Device fisik (HP asli) -> http://<IP-komputer-kamu>:3000
-  static String baseUrl = 'http://127.0.0.1:3000';
+  static String baseUrl = "https://stray-blogapp.vercel.app";
   static String apiUrl = '$baseUrl/api';
 
   final AuthService _authService = AuthService();
